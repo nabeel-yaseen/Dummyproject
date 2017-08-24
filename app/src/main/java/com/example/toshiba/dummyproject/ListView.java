@@ -12,7 +12,7 @@ public class ListView extends AppCompatActivity {
 
 
     android.widget.ListView list;
-    String[] pname = {"Allied Bank Limited", "Habib Bank Limited", "Bank Alfalah Limited", "Faisal Bank Limited", "Meezan Bank Limited", "Muslim comercial Bank","United Bank Limited","Standard Chartered Bank","Soneri Bank Limited","Bank of Punjab", };
+    String[] pname = {"Allied Bank Limited", "Habib Bank Limited", "Bank Alfalah Limited", "Faisal Bank Limited", "Meezan Bank Limited", "Muslim comercial Bank","United Bank Limited","Standard Chartered Bank","Soneri Bank Limited","The Bank of Punjab", };
     String[] pprice = {"Mc Donald's 10%,Burger King 15%,SubWay 20%", "Cliclx 10%,careem 10%,", "Chugtai lab 15%,shokat khanam 20%", "PC 5%,Avari 20%,cinipax 20%", "sozo 10%,joyLand 20%", "Uber 10%,pizzaHut 15%,KFC 20%","Uber 10%,pizzaHut 15%,KFC 20%","Uber 10%,pizzaHut 15%,KFC 20%","Uber 10%,pizzaHut 15%,KFC 20%","Uber 10%,pizzaHut 15%,KFC 20%",};
     int[] pimage = {R.drawable.a1,R.drawable.a2,R.drawable.a3,R.drawable.a4,R.drawable.a5,R.drawable.a6,R.drawable.a7,R.drawable.a8,R.drawable.a9,R.drawable.a10};
 
