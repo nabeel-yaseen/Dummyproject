@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5D6A7"
+    android:orientation="vertical"
+    tools:context="com.example.toshiba.dummyproject.ProductDetails">
+
+    <TextView
+        android:id="@+id/pdtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:hint="Product Name"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/pdimage"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/pdtView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pdtView"
+        android:layout_marginTop="36dp"
+        android:hint="Product Price"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25dp" />
+
+</LinearLayout>
